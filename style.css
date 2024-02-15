@@ -1,0 +1,93 @@
+body{
+    font-family: Protest Guerrilla
+    , sans-serif;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+.navbar{
+    background-color: #d5b03e;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-lutadores .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+
+.navbar-brand img{
+    height: 100px;
+    width: 250px;
+}
+
+.carousel img{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.section-title{
+    font-family: pacifico, cursive;
+}
+
+.section-title span{
+    color: #d5b03e;
+}
+
+#sobre-o-Evento, #lutadores{
+    background-color: #d5b03e;
+    background-color: #d5b03e;
+}
+
+.text-color{
+    color: #d5b03e;
+    text-align: center;
+}
+
+.texto-preto{
+    color: rgba(0, 0, 0, 0.719)
+}
+
+.nav-lutadores .nav-link.active, #fale-conosco button{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: #fff;
+}
+
+.nav-lutadores .nav-link:hover{
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.Conor{
+    color: #fff;
+}
+
+strong{
+    color: black;
+    font-weight: bold;
+}
+
+.Endereço{
+    color: #fff;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
+

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./imagens/logo300.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>UFC-300</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title"><img src="./imagens/logo300.jpg" alt=""></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegação">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-Evento" class="nav-link">
+                            <i class="bi bi-caret-right-square-fill"></i>
+                            Sobre o Evento</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Proximos Eventos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#lutadores" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Lutadores</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+            <div class="container">
+                <section id="sobre-o-Evento">
+                    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="./imagens/car01.jpg" alt="">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./imagens/car02.jpg" alt="">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./imagens/car03.jpg" alt="">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./imagens/car04.jpg" alt="">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                        </div>
+                    </div>
+                    <div class="pt-5 pb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <img src="./imagens/octogono.webp" class="d-block w-100 rounded" alt="Espaço interno do Evento">
+                                </div>
+                                <div class="col-md-7 mt-3 mt-md-0">
+                                    <h2 class="section-title">Sobre o evento</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem, enim at dolorum maxime qui hic, adipisci tempore esse possimus placeat facilis suscipit consequatur nulla, voluptatem quos in sint aliquid?</p>
+                                    <h3 class="section-title">Sobre <span>o Restaurante</span></h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam numquam at tenetur, consectetur hic quisquam sequi exercitationem culpa provident quod minima in excepturi commodi autem veritatis illo, aut consequuntur dolores.</p>
+                                    <ul>
+                                        <li>Item 1</li>
+                                        <li>Item 1</li>
+                                        <li>Item 1</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+                
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"><span>PRÓXIMOS EVENTOS</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/ufc301.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-color fs-4">
+                            UFC 301
+                        </h3>
+                        <p class="Endereço">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat temporibus itaque nihil perferendis cum dolore repudiandae, architecto incidunt impedit nostrum odio ipsa dicta sunt quos nisi saepe? Ea, cum.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/ufc302.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-color fs-4">
+                            UFC 302</h3>
+                        <p class="Endereço">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat temporibus itaque nihil perferendis cum dolore repudiandae, architecto incidunt impedit nostrum odio ipsa dicta sunt quos nisi saepe? Ea, cum.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/ufc303.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-color fs-4">
+                            UFC 303</h3>
+                        <p class="Endereço">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat temporibus itaque nihil perferendis cum dolore repudiandae, architecto incidunt impedit nostrum odio ipsa dicta sunt quos nisi saepe? Ea, cum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lutadores" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        LUTADORES
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-lutadores">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#conor" class="fw-bold text-start nav-link texto-preto active">Conor Mcgregor</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#poatan" class="fw-bold text-start nav-link texto-preto">Alex Poatan</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jones" class="fw-bold text-start nav-link texto-preto">Jon Jones</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ade" class="fw-bold text-start nav-link texto-preto">Israel Adesanya</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#charles" class="fw-bold text-start nav-link texto-preto">Charles Oliveira</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="conor">
+                                <div class="pt-5 pb-5">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="./imagens/conor.jpg" class="d-block w-100 rounded" alt="Espaço interno do Evento">
+                                            </div>
+                                            <div class="col-md-7 mt-3 mt-md-0">
+                                                <p class="Conor">
+                                                    <strong>Conor Anthony McGregor</strong> (Dublin, 14 de julho de 1988) é um lutador irlandês de artes marciais mistas. Conhecido pelas provocações que faz aos seus oponentes e seu estilo extravagante, conquistou o título do UFC nocauteando José Aldo em apenas 13 segundos. <br>
+                                                    <strong>The Notorious,</strong> como é apelidado, foi campeão do peso-leve e do peso-pena do Cage Warriors, sendo o primeiro lutador irlandês profissional a ter dois títulos em duas categorias diferentes. McGregor repetiu seu feito no dia 12 de novembro de 2016, dessa vez no UFC, e tornou-se o primeiro lutador da organização a ter dois cinturões de categorias diferentes ao mesmo tempo. O irlandês conseguiu a proeza nocauteando Eddie Alvarez no UFC 205. Outra curiosidade de McGregor é a previsão que faz de como irá acabar suas lutas, que na maioria das vezes se concretizam.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                          
+                            </div>
+                            <div class="tab-pane" id="poatan">
+                                <div class="pt-5 pb-5">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="./imagens/poatan.jpg" class="d-block w-100 rounded" alt="Espaço interno do Evento">
+                                            </div>
+                                            <div class="col-md-7 mt-3 mt-md-0">
+                                                <p class="Conor">
+                                                    <strong>Alex Sandro Silva Pereira,</strong> também conhecido como <strong>Alex Poatan</strong> (São Bernardo do Campo, 7 de julho de 1987) é um lutador brasileiro profissional de artes marciais mistas e ex-lutador de Kickboxing. <br> Foi duplo campeão mundial de Kickboxing pelo Glory, e duplo campeão mundial de MMA pelo UFC. Atualmente, é o Campeão Meio-Pesado do Ultimate Fighting Championship (UFC) e é ex-Campeão Peso-Médio da organização. No Kickboxing, foi campeão meio-pesado e médio, sendo o primeiro e único lutador a ter títulos do Glory em duas categorias de peso simultaneamente. <br> Também competiu em organizações como It's Showtime e SUPERKOMBAT Fighting Championship no kickboxing, e Jungle Fight e Legacy Fighting Championship no MMA.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="jones">
+                                <div class="pt-5 pb-5">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="./imagens/jones.jpg" class="d-block w-100 rounded" alt="Espaço interno do Evento">
+                                            </div>
+                                            <div class="col-md-7 mt-3 mt-md-0">
+                                                <p class="Conor">
+                                                    <strong>Jonathan Dwight Jones,</strong> mais conhecido como <strong>Jones</strong> (Rochester, 19 de julho de 1987) é um lutador norte-americano de artes marciais mistas e atual Campeão peso-pesado do UFC. Jones é amplamente considerado pela mídia especializada como o melhor lutador de MMA da história.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="ade">
+                                <div class="pt-5 pb-5">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="./imagens/adesanya.webp" class="d-block w-100 rounded" alt="Espaço interno do Evento">
+                                            </div>
+                                            <div class="col-md-7 mt-3 mt-md-0">
+                                                <p class="Conor">
+                                                    <strong>Israel Mobolaji Temitayo Odunayo Oluwafemi Owolabi Adesanya,</strong> mais conhecido como <strong>Adesanya</strong> (Lagos, 22 de julho de 1989), é um lutador profissional de artes marciais mistas nigeriano que atualmente compete pelo UFC na categoria dos médios. Ex-campeão do peso-médio do Ultimate Fighting Championship.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="charles">
+                                <div class="pt-5 pb-5">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="./imagens/charles.webp" class="d-block w-100 rounded" alt="Espaço interno do Evento">
+                                            </div>
+                                            <div class="col-md-7 mt-3 mt-md-0">
+                                                <p class="Conor">
+                                                    <strong>Charles Oliveira da Silva,</strong> mais conhecido como <strong>do Bronxs</strong> (Guarujá, 17 de outubro de 1989) é um lutador de jiu-jitsu e artes marciais mistas (MMA) brasileiro e ex-campeão peso-leve do Ultimate Fighting Championship (UFC). É o maior finalizador da história da organização, com 16 no total, e o que mais venceu lutas pela via rápida (nocaute ou finalização), totalizando 20. Em 16 de maio de 2021, nocauteou o americano Michael Chandler tornando-se campeão peso-leve do UFC, o segundo brasileiro a conquistar o cinturão nessa categoria e o 18° no UFC.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span>conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-color">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-color">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-color">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-color">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-color">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-color"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-color">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p class="Endereço">Rua Teste Exemplo, nº 145 - Tijuca - Rio de Janeiro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
